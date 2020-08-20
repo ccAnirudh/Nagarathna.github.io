@@ -1,0 +1,38 @@
+<script>
+
+	
+			x=prompt("Please enter a set of random numbers seperated by comma's - ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಯಾದೃಚ್ numbers ಿಕ ಸಂಖ್ಯೆಗಳ ಗುಂಪನ್ನು ದಯವಿಟ್ಟು ನಮೂದಿಸಿ ");
+
+		console.log(x);
+
+			y=prompt("Please enter another set of random numbers seperated by comma's - ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಲಾಗಿರುವ ಯಾದೃಚ್ numbers ಿಕ ಸಂಖ್ಯೆಗಳ ಮತ್ತೊಂದು ಗುಂಪನ್ನು ದಯವಿಟ್ಟು ನಮೂದಿಸಿ");
+
+		console.log(y);
+
+
+	      array1 = x.split(",");
+	      console.log(array1)
+
+	      array2 = y.split(",");
+
+	      answerarray = []
+
+	     for(var i = 0; i < array1.length; i=i + 1) {
+          	answerarray.push(Number(array1[i])+Number(array2[i]))
+          		     }
+
+	     console.log(answerarray)
+
+	     answerarray1 = array1.toString();
+	     answerarray2 = array2.toString();
+	     displayanswer = answerarray.toString();
+
+	     document.getElementById("answer").innerHTML += answerarray1 + "\n" + answerarray2 + "\n" + displayanswer
+	
+		
+</script>
+
+<p> Remember to right-click on your laptop, click "inspect," and got to "console," to witness a shocking addition calculation - ನಿಮ್ಮ ಲ್ಯಾಪ್‌ಟಾಪ್‌ನಲ್ಲಿ ಬಲ ಕ್ಲಿಕ್ ಮಾಡಲು ಮರೆಯದಿರಿ, "ಪರೀಕ್ಷಿಸು" ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಆಘಾತಕಾರಿ ಸೇರ್ಪಡೆ ಲೆಕ್ಕಾಚಾರಕ್ಕೆ ಸಾಕ್ಷಿಯಾಗಲು "ಕನ್ಸೋಲ್" ಗೆ ಸಿಕ್ಕಿತು  </p>
+
+<a href= "Nagarathna.html"> Back to Kannada Translation - ಕನ್ನಡ ಅನುವಾದಕ್ಕೆ ಹಿಂತಿರುಗಿ </a>
+<a href="Nagarthna2.html"> English Translation - ಇಂಗ್ಲಿಷ್ ಅನುವಾದ/ </a>
